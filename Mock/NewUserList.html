@@ -1,0 +1,102 @@
+<
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/origin/common.css">
+
+
+<title>ユーザ一覧</title>
+</head>
+<body>
+	<span class="d-block p-2 bg-dark text-white"><p align="right">
+			<a href="Login.html" class="text-danger"><u>ログアウト</u></a>
+		</p> </span>
+
+		<div class="container">
+
+	<h1 align="center">ユーザ一覧</h1>
+	<p align="right">
+		<a href="NewUserEntry.html">新規登録</a>
+	</p>
+	<form action="" method="" class="search-area" ">
+		<p>
+			<b>ログインID</b>&emsp;&emsp;<input type="text" name="id">
+		</p>
+		<p>
+			<b>パスワード</b>&emsp;&emsp;<input type="text" name="pass">
+		</p>
+		<p>
+			<b>生年月日</b>&emsp;&emsp;<input type="text" name="birth1"
+				placeholder="年/月/日"> ～<input type="text" name="birth2"
+				placeholder="年/月/日">
+		</p>
+		<p align="right">
+			<input type="submit" value="    検索   ">
+		</p>
+		</form>
+
+		<table class="table table-bordered">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">ログインID</th>
+					<th scope="col">ユーザ名</th>
+					<th scope="col">生年月日</th>
+					<th scope="col"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">id0001</th>
+					<td>田中太郎</td>
+					<td>1989年04月26日</td>
+					<td>
+						<a class="btn btn-primary" href="Userdate.html" role="button">詳細</a>
+						<a class="btn btn-success" href="UserDateUpdate.html" role="button">更新</a>
+						<a class="btn btn-danger" href="UserDalete.html" role="button">削除</a></td>
+				</tr>
+				<tr>
+					<th scope="row">id0002</th>
+					<td>佐藤二郎</td>
+					<td>2001年11月12日</td>
+					<td><a class="btn btn-primary" href="Userdate.html" role="button">詳細</a>
+						<a class="btn btn-success" href="UserDateUpdate.html" role="button">更新</a>
+						<a class="btn btn-danger" href="UserDalete.html" role="button">削除</a></td>
+				</tr>
+				<tr>
+					<th scope="row">id0003</th>
+					<td>佐川真司</td>
+					<td>2000年01月01日</td>
+					<td><a class="btn btn-primary" href="Userdate.html" role="button">詳細</a>
+						<a class="btn btn-success" href="UserDateUpdate.html" role="button">更新</a>
+						<a class="btn btn-danger" href="UserDalete.html" role="button">削除</a></td></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+			integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+			integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+			crossorigin="anonymous"></script>
+
+
+	</div>
+</body>
+</html>
